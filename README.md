@@ -8,7 +8,7 @@ I initially built this app to help me guesstimate the cost of out-of-state hacka
 3. Uses Google's Geocoder API to figure out the latitude/longitude of an airport code
 4. Uses Lyft's API to find distance from departing address to departing airport and destination airport to destination address
 
-#Result
+# Result
 The total cost of (departing ride * 2) + flight + (destination ride * 2). The departing and destination rides are accounted for twice since you take the ride once going to the destination and then once again while returning. The flight cost is already a round trip price.
 
 # How to use this app
@@ -18,7 +18,7 @@ LYFT_CLIENT_TOKEN (same as above) <br>
 GOOGLE_GEOCODER_APIKEY (look up how to enable geocoder API on your account with Google) <br>
 GOOGLE_PLACES_APIKEY (same as above but with the Places API) <br>
 GOOGLE_QPXEXPRESS_APIKEY (same as above but with the QPX Express API) <br>
-<b> Example: <b> <br>
+<b> Example: </b> <br>
 LYFT_CLIENT_ID = "insert your API key here" <br>
 
 2. Open this project in Android Studio and click the error details and remove both modules as it recommends (if this doesn't show up, just skip to the next step)
