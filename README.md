@@ -1,5 +1,6 @@
 # quick-itinerary-cost-calc
 Quick cost guesstimate calculator for out-of-state hackathons
+I initially built this app to help me guesstimate the cost of out-of-state hackathons, but it can be used for just a general guesstimate of the cost of a trip to a specific location and back.
 
 # Functionality
 1. Uses Google's Places API to easily search for addresses and retrieve info
