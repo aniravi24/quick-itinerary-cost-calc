@@ -1,5 +1,5 @@
 # quick-itinerary-cost-calc
-Quick guesstimate calculator for out-of-state hackathons
+Quick cost guesstimate calculator for out-of-state hackathons
 
 # Functionality
 Uses Google's QPX Express API to calculate flight cost of a round trip with an individual person
