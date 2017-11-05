@@ -9,7 +9,7 @@ I initially built this app to help me guesstimate the cost of out-of-state hacka
 4. Uses Lyft's API to find distance from departing address to departing airport and destination airport to destination address
 
 # How to use this app
-2. Create a file called "gradle.properties" (without the quotes and set the following properties <br>
+2. Create a file called "gradle.properties" (without the quotes) in the top directory of this repository and set the following properties <br>
 LYFT_CLIENT_ID (You need to set up a Lyft developer account and get your information there) <br>
 LYFT_CLIENT_TOKEN (same as above) <br>
 GOOGLE_GEOCODER_APIKEY (look up how to enable geocoder API on your account with Google) <br>
