@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ani.quickitinerarycalculator.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/currentLocButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="findPlace"
+            android:text="Tap to Enter Current Location" />
+
+        <TextView
+            android:id="@+id/currentLocText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/destLocButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="findPlace"
+            android:text="Tap to Enter Destination Location" />
+
+        <TextView
+            android:id="@+id/destLocText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/deptAirportEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="Tap to Enter Departing Airport Code"
+            android:inputType="textCapCharacters"
+            android:maxLength="3" />
+
+        <EditText
+            android:id="@+id/destAirportEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="Tap to Enter Destination Airport Code"
+            android:inputType="textCapCharacters"
+            android:maxLength="3" />
+
+        <Button
+            android:id="@+id/depDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="DateSet"
+            android:text="From Date" />
+
+        <TextView
+            android:id="@+id/fromDateText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/returnDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="DateSet"
+            android:text="Return Date" />
+
+        <TextView
+            android:id="@+id/returnDateText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="calculateCost"
+            android:text="Calculate Cost" />
+
+        <TextView
+            android:id="@+id/finalCostView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+</ScrollView>
