@@ -2,9 +2,10 @@
 Quick cost guesstimate calculator for out-of-state hackathons
 
 # Functionality
-1. Uses Google's QPX Express API to calculate flight cost of a round trip with an individual person
-2. Uses Google's Geocoder API to figure out the latitude/longitude of an airport code
-3. Uses Lyft's API to find distance from departing address to departing airport and destination airport to destination address
+1. Uses Google's Places API to easily search for addresses and retrieve info
+2. Uses Google's QPX Express API to calculate flight cost of a round trip with an individual person
+3. Uses Google's Geocoder API to figure out the latitude/longitude of an airport code
+4. Uses Lyft's API to find distance from departing address to departing airport and destination airport to destination address
 
 # How to use this app
 1. Import this project into Android Studio
