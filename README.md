@@ -9,15 +9,16 @@ I initially built this app to help me guesstimate the cost of out-of-state hacka
 4. Uses Lyft's API to find distance from departing address to departing airport and destination airport to destination address
 
 # How to use this app
-1. Import this project into Android Studio
-2. Open your gradle.properties file and set the following properties <br>
+2. Create a file called "gradle.properties" (without the quotes and set the following properties <br>
 LYFT_CLIENT_ID (You need to set up a Lyft developer account and get your information there) <br>
 LYFT_CLIENT_TOKEN (same as above) <br>
 GOOGLE_GEOCODER_APIKEY (look up how to enable geocoder API on your account with Google) <br>
 GOOGLE_PLACES_APIKEY (same as above but with the Places API) <br>
 GOOGLE_QPXEXPRESS_APIKEY (same as above but with the QPX Express API) <br>
 Example: <br>
-LYFT_CLIENT_ID = "insert your API key here" <br>
+LYFT_CLIENT_ID = "insert your API key here" <br><br>
+2. Open this project into Android Studio
+
 
 ![Alt text](https://user-images.githubusercontent.com/5902976/32418562-b5a0a20a-c229-11e7-8a4b-c4f83317316b.png "Screenshot of app")
 
