@@ -33,3 +33,4 @@ LYFT_CLIENT_ID = "insert your API key here" <br>
 2. The UI could use a huge lift.
 3. I didn't create a git repository until after I finished the initial code but I should have started the project with a git repository and committed everything along the way.
 4. Move off Google's QPX Express API since it is set to shut down in April 2018.
+5. Better error handling.
