@@ -9,7 +9,7 @@ I initially built this app to help me guesstimate the cost of out-of-state hacka
 4. Uses Lyft's API to find distance from departing address to departing airport and destination airport to destination address
 
 # Result
-The total cost of (departing ride * 2) + flight + (destination ride * 2). The departing and destination rides are accounted for twice since you take the ride once going to the destination and then once again while returning. The flight cost is already a round trip price.
+The total cost of (departing ride * 2) + flight + (destination ride * 2). The departing and destination rides are accounted for twice since you take the ride once going to the destination and then once again while returning. The flight cost is already a round trip price. Do keep in mind that the Lyft rides are retrieved as though you were going to take the ride that moment, so expect some inaccuracy for the total cost. It is a guesstimate after all.
 
 # How to use this app
 1. Create a file called "gradle.properties" (without the quotes) in the top directory of this repository and set the following properties: <br>
