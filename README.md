@@ -7,7 +7,7 @@ I initially built this app to help me guesstimate the cost of out-of-state hacka
 2. Uses Google's QPX Express API to calculate flight cost of a round trip with an individual person
 3. Uses Google's Geocoder API to figure out the latitude/longitude of an airport code
 4. Uses Lyft's API to find distance from departing address to departing airport and destination airport to destination address
-
+5. This app currently only works where Lyft operates. If you use it outside of a Lyft operating area, it will most likely crash due to the poor networking code as mentioned below in the "Things to improve" section.
 # Result
 The total cost of (departing ride * 2) + flight + (destination ride * 2). The departing and destination rides are accounted for twice since you take the ride once going to the destination and then once again while returning. The flight cost is already a round trip price. Do keep in mind that the Lyft rides are retrieved as though you were going to take the ride that moment, so expect some inaccuracy for the total cost. It is a guesstimate after all.
 
