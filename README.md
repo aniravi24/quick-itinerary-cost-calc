@@ -1,3 +1,5 @@
+# This project officially does not work because Google has deprecated the QPX Express API as of April 10, 2018.
+
 # quick-itinerary-cost-calc
 Quick cost guesstimate calculator for out-of-state hackathons <br><br>
 I initially built this app to help me guesstimate the cost of out-of-state hackathons, but it can be used for just a general guesstimate of the cost of a trip to a specific location and back.
